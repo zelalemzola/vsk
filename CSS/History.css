@@ -1,0 +1,91 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Josefin Sans',sans-serif;
+}
+.container{
+ width: 100%;
+ height: 110vh;
+ background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/CitytPhotos/History.jpeg);
+ 
+ background-position: center;
+ background-size: cover;
+}
+h1{
+ color: white;
+ font-size: 100px;
+}
+span {
+ color: #917153;
+}
+p{
+ color: #fcfc;
+ font-size: 13px;
+ font-weight: bold;
+}
+.row{
+ display: flex;
+ padding: 150px 100px;
+ height: 80%;
+ align-items: center;
+}
+.col{
+ flex-basis: 50%;
+}
+footer {
+ position: relative;
+ width: 100%;
+ height: 400px;
+ background: #191919;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+footer p:nth-child(1) {
+ font-size: 30px;
+ color: white;
+ font-weight: bold;
+}
+
+footer p:nth-child(2) {
+ color: white;
+ font-size: 17px;
+ width: 500px;
+ text-align: center;
+ line-height: 26px;
+}
+
+.social {
+ display: flex;
+}
+
+.social a {
+ width: 45px;
+ height: 45px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: #f9004d;
+ border-radius: 50%;
+ margin: 22px 10px;
+ color: white;
+ text-decoration: none;
+}
+
+.end {
+ position: absolute;
+ bottom: 35px;
+ align-items: center;
+ justify-content: center;
+}
+
+.end a {
+
+ color: #f9004d;
+
+ font-size: 14px;
+ text-decoration: none;
+
+}
